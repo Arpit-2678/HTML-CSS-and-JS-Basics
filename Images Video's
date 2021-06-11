@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+   
+</head>
+<body>
+    <h2 style="text-align:center"> Images and Video's</h2>
+    <img src="https://m.economictimes.com/thumb/msid-71917504,width-1200,height-900,resizemode-4,imgsize-623426/untitled-3.jpg" alt="This is an image" width="300px">
+    <img src="https://c.ndtvimg.com/2020-03/bthb68ug_virat-kohli-afp_625x300_27_March_20.jpg?q=60" width="300px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/N7yfgAXLYsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </body>
+  </html>
