@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table{
+  margin-top:50px;
+  
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:7px;
+}
+    </style>
+</head>
+<body>
+    <table align="center";>
+      <thead>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>City</th>
+        <th>State</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Arpit</td>
+          <td>7379664324</td>
+          <td>Lucknow</td>
+          <td>Uttar Pradesh</td>
+        </tr>
+        <tr>
+          <td>Chirag</td>
+          <td>9971210575</td>
+          <td>Delhi</td>
+          <td>New Delhi</td>
+        </tr>
+        <tr>
+          <td colspan="4" style="text-align:center;">Programmers</td>
+          </tr>
+  
+      </tbody>
+  
+    </table>
+  
+  </body>
+  </html>
