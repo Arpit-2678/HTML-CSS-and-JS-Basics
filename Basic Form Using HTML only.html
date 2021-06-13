@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+  
+ <style>
+     body{
+/* background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+background: #dc2424; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #4a569d,
+    #dc2424
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4a569d,
+    #dc2424
+  );
+}
+ 
+</style>
+</head>
+<body>
+  <h1>Payment Form</h1>
+  <hr>
+  <h2>Contact Details</h2>
+  <form>
+    <p>Feild followed by * are mandatory to fill</p>
+    <p>Username*: <input type="text" name="name" required></p>
+    <fieldset>
+      <legend required>Gender*</legend>
+      <p>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+      </p>
+    </fieldset>
+    <p>
+      Address:<textarea name="address" cols="100" rows="8"></textarea>
+
+    </p>
+    <p>Email*: <input type="email" name="email" required></p>
+    <p>Pincode*: <input type="number" name="pincode"> </p>
+
+    <hr>
+    <h2>Payment Information</h2>
+    <p>Card Type*:
+      <select name="card" required>
+        <option value="">---Select Card Type---</option>
+        <option value="Mastero">Mastero</option>
+        <option value="Visa">Visa</option>
+        <option value="Rupay">Rupay</option>
+      </select>
+    </p>
+    <p>Card Number*: <input type="number" name="card-no" required>
+    </p>
+    <p>Expiry Date*: <input type="date" name=date required></p>
+    <p>CVV*: <input type="password" name="pass" required></p>
+    <input type="submit" value="Pay Now">
+
+  </form>
+</body>
+  </html>
