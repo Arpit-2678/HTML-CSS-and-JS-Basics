@@ -1,0 +1,27 @@
+body h1 {
+  text-align: center;
+  margin-top: 0%;
+  height: 600px;
+  border: 1px solid black;
+  font-size: 30em;
+  padding-bottom: 50px;
+  padding-top: 90px;
+  font-family: Facile Sans;
+  background-image: conic-gradient(
+    from -30deg at 44% 50%,
+    red 0deg,
+    red 90deg,
+    blue 90deg,
+    blue 180deg,
+    green 180deg,
+    green 270deg,
+    yellow 270deg,
+    yellow 360deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1542086820-c7deffc43109?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+}
