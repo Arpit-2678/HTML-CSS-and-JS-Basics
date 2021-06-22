@@ -1,0 +1,94 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-image: url("https://www.chetu.com/img/payments/payments-main/sliderbg/payments-banner-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading1 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.label1 {
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 14%;
+  left: 2.5%;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+#username {
+  position: absolute;
+  top: 14%;
+  left: 14.5%;
+}
+.div1 {
+  position: absolute;
+  top: 15%;
+  height: 300px;
+  width: 97%;
+}
+.div1 h2 {
+  margin-left: 12px;
+}
+.div2 {
+  position: absolute;
+  top: 25%;
+  left: 2.5%;
+}
+.div2 span {
+  padding-right: 10px;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+fieldset {
+  margin-left: 25px;
+  height: 300px;
+  /* border: 1px solid black; */
+}
+.l1 {
+  font-weight: bolder;
+  font-size: 25px;
+  /* width: 97%; */
+}
+.l3 {
+  position: absolute;
+  top: 37%;
+  left: 2.5%;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+#phone {
+  position: absolute;
+  top: 37%;
+  left: 13.5%;
+}
+.l4 {
+  position: absolute;
+  top: 48%;
+  left: 2.5%;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+#email {
+  position: absolute;
+  top: 48%;
+  left: 13.5%;
+}
+.l5 {
+  position: absolute;
+  top: 59%;
+  left: 2.5%;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+}
+#address {
+  position: absolute;
+  top: 59%;
+  left: 10%;
+}
