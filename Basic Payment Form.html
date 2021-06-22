@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pf.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://image.freepik.com/free-vector/payment-background-design_1212-566.jpg"
+      type="image/x-icon"
+    />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <h1 class="heading1">Welcome To Payment Window</h1>
+    <div class="div1">
+      <form action="#">
+        <fieldset>
+          <legend class="l1">Personal Detials</legend>
+          <label for="username" class="label1">Enter Your Name:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            placeholder="----Enter Your Full Name----"
+          />
+          <div class="div2">
+            <span class="sp">Gender:</span>
+            <input type="radio" name="gender" id="Male" value="male" />
+            <label for="Male" class="label2">Male</label>
+            <input type="radio" name="gender" id="Female" value="Female" />
+            <label for="Female" class="label2">Female</label>
+            <input type="radio" name="gender" id="Others" value="other" />
+            <label for="others" class="label2">Others</label>
+          </div>
+          <label for="phone" class="l3">Phone Number:</label>
+          <input
+            type="number"
+            name="number"
+            id="phone"
+            required
+            placeholder="----0000000000----"
+          />
+          <label for="email" class="l4">Email Address:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="----abc@gmail.com----"
+            required
+          />
+          <label for="address" class="l5">Address:</label>
+          <textarea name="address" id="address" cols="30" rows="7"></textarea>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
