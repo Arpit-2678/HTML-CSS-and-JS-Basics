@@ -24,7 +24,7 @@
     <div class="div1">
       <form action="#">
         <fieldset>
-          <legend class="l1">Personal Detials</legend>
+          <legend class="l1">Personal Details</legend>
           <label for="username" class="label1">Enter Your Name:</label>
           <input
             type="text"
@@ -60,6 +60,47 @@
           />
           <label for="address" class="l5">Address:</label>
           <textarea name="address" id="address" cols="30" rows="7"></textarea>
+        </fieldset>
+      </form>
+    </div>
+    <div class="payment">
+      <form action="#">
+        <fieldset class="f2">
+          <legend class="leg">Payment Details</legend>
+          <div class="innerdiv">
+            <label for="cardselect">Card Type:</label>
+            <select name="cards" id="cardselect" required>
+              <option value="">--Please choose an option--</option>
+              <option value="visa">Visa</option>
+              <option value="MasterCard">MasterCard</option>
+              <option value="Maestro">Maestro</option>
+              <option value="Platinum">Platinum</option>
+            </select>
+            <label for="cardholdername" class="c2">Card Holder Name:</label>
+            <input
+              type="text"
+              id="cardholdername"
+              name="cardholdername"
+              placeholder="--Enter your full name--"
+            />
+            <label for="accno" class="acc">Card Number:</label>
+            <input
+              type="text"
+              id="accno"
+              name="accno"
+              placeholder="--Same as on card--"
+            />
+            <label for="expiry" class="exp">Expiry Date:</label>
+            <input
+              type="month"
+              id="expiry"
+              name="expiry"
+              placeholder="Month, Year"
+            />
+            <label for="cvv" class="cv">CVV:</label>
+            <input type="password" name="cvv" id="cvv" />
+            <button class="final">Make Payment</button>
+          </div>
         </fieldset>
       </form>
     </div>
